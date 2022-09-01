@@ -2,7 +2,7 @@
 
 $color1:rgb(8, 8, 221);
 $color2:green;
-$color3:rgb(67, 36, 98);
+$color3:rgb(54, 4, 104);
 $font-family1: 'Oswald', sans-serif;
 
 nav{
@@ -64,7 +64,7 @@ li a.active, li a:hover{
     display: none;
 }
 h2{
-    background-color:$color2;
+    background:$color3;;
     color: aliceblue;
     text-align: center;
     font-family: $font-family1;
@@ -112,20 +112,39 @@ p{
     padding: 20px;
     margin: 0 auto;
     border: 3px rgb(95, 0, 95);
-    
-    
-
-
-}
-.class
-{ 
-
 }
 .callp{
     margin-bottom: 20px;
 
 }
-footer{
+//maps - inicio
+$maps: (
+    20px: red,
+    40px: orange,
+    60px: yellow,
+    80px: violet,
+
+    );
+
+
+    @each $sizes, $colours in $maps {
+        .maps-#{$colours} {
+            background-color: #000;
+            height: 200px;
+            width: 400px;
+            border: 10px solid violet;
+            text-align: center;
+            font-size: $sizes;
+            line-height: 200px;
+            color: violet;
+            text-transform: uppercase;
+            text-shadow: 0 0 $sizes violet;
+            font-family: cursive;
+            border-radius: 10px;
+        }
+//maps -fin
+}
+        footer{
     height: 70px;
     color: white;
     background-color: $color1;
@@ -186,4 +205,4 @@ footer i{
 
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css.map */ 

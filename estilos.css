@@ -66,7 +66,7 @@ li a.active, li a:hover {
 }
 
 h2 {
-  background-color: green;
+  background: rgb(54, 4, 104);
   color: aliceblue;
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -111,7 +111,7 @@ p {
 }
 
 .call {
-  background-color: rgb(67, 36, 98);
+  background-color: rgb(54, 4, 104);
   width: 50%;
   padding: 20px;
   margin: 0 auto;
@@ -120,6 +120,66 @@ p {
 
 .callp {
   margin-bottom: 20px;
+}
+
+.maps-red {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 20px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-orange {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 40px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 40px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-yellow {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 60px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 60px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-violet {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 80px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 80px violet;
+  font-family: cursive;
+  border-radius: 10px;
 }
 
 footer {
@@ -178,6 +238,4 @@ footer i {
     left: 0;
   }
 }
-/*# sourceMappingURL=estilos.css.map */
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css.map *//*# sourceMappingURL=estilos.css.map */
